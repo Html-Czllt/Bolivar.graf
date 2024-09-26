@@ -7,7 +7,7 @@ async function quantidadeUsuariosPorRede() {
         "Instagram": 600,
         "Twitter": 150,
         "TikTok": 400,
-        "WhatsApp": 900,
+        "WhatsApp": 800,
         "YouTube": 750
     };
 
