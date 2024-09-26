@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --bg-color: #111111; /* Fundo preto */
+    --text-color: #FFFFFF; /* Texto branco */
+    --highlight-color: #FFD700; /* Amarelo para destaque */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Nunito Sans', sans-serif; /* Adicionei a fonte aqui */
+    height: 100vh;
+}
+  
+header {
+    background-color: var(--bg-color);
+    text-align: center;
+    padding: 1px;
+    border-bottom: 2px solid var(--text-color);
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--highlight-color); /* Amarelo para o título */
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color); /* Texto branco */
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease; /* Suave transição */
+}
+
+nav a:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão */
+    color: var(--highlight-color); /* Amarelo ao passar o mouse */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
+
+
+
+
+
+.graficos-container {
+    margin: 5rem;
+}
+
+.grafico {
+    margin-top: 3rem;
+}
+
+.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--text-color) solid 2px; /* Bordas brancas */
+}
+
+span {
+    font-weight: bold;
+    color: var(--highlight-color); /* Amarelo para destaque */
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    color: var(--highlight-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    border-top: 2px solid var(--text-color); /* Bordas brancas */
+}
